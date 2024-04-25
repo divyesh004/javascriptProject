@@ -6,7 +6,7 @@ signinForm.addEventListener("submit", (e) => {
     const email = document.getElementById("signin-email").value;
     const password = document.getElementById("signin-password").value;
   
-    const userData = JSON.parse(localStorage.getItem("  "));
+    const userData = JSON.parse(localStorage.getItem("userInfo"));
     const user = userData.find((el) => el.email == email && el.password == password);
   
     if (user) {
