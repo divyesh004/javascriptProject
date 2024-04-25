@@ -11,7 +11,7 @@ signinForm.addEventListener("submit", (e) => {
   
     if (user) {
       alert(`Login Succesfully! Welcome ${user.name}`);
-      window.location.href = 'http://127.0.0.1:5501/home.html'
+      window.location.href = 'home.html'
       return
     } 
     
